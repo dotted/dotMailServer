@@ -1,7 +1,9 @@
 ﻿
 Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio 2012
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "dotMailServer", "dotMailServer\dotMailServer.csproj", "{2FB9DD8A-AB60-4C4D-B4E0-3F65265F1F67}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "dot.Mail.Server", "dot.Mail.Server\dot.Mail.Server.csproj", "{2FB9DD8A-AB60-4C4D-B4E0-3F65265F1F67}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "dot.Mail.SMTP", "dot.Mail.SMTP\dot.Mail.SMTP.csproj", "{67726EB8-A7AC-4A39-B2BD-93C276C195E2}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -13,6 +15,10 @@ Global
 		{2FB9DD8A-AB60-4C4D-B4E0-3F65265F1F67}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{2FB9DD8A-AB60-4C4D-B4E0-3F65265F1F67}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{2FB9DD8A-AB60-4C4D-B4E0-3F65265F1F67}.Release|Any CPU.Build.0 = Release|Any CPU
+		{67726EB8-A7AC-4A39-B2BD-93C276C195E2}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{67726EB8-A7AC-4A39-B2BD-93C276C195E2}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{67726EB8-A7AC-4A39-B2BD-93C276C195E2}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{67726EB8-A7AC-4A39-B2BD-93C276C195E2}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
