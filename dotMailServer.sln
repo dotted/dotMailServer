@@ -5,6 +5,19 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "dot.Mail.Server", "dot.Mail
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "dot.Mail.SMTP", "dot.Mail.SMTP\dot.Mail.SMTP.csproj", "{67726EB8-A7AC-4A39-B2BD-93C276C195E2}"
 EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = ".nuget", ".nuget", "{DC318337-11A7-4969-B16C-0F47F2469CE9}"
+	ProjectSection(SolutionItems) = preProject
+		.nuget\NuGet.Config = .nuget\NuGet.Config
+		.nuget\NuGet.exe = .nuget\NuGet.exe
+		.nuget\NuGet.targets = .nuget\NuGet.targets
+	EndProjectSection
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "dot.Mail.SMTPTests", "dot.Mail.SMTPTests\dot.Mail.SMTPTests.csproj", "{9CD13FA8-34D9-480F-93C2-155E3D7EBF53}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "dot.Mail.Interfaces", "dot.Mail.Interfaces\dot.Mail.Interfaces.csproj", "{C1360019-01A5-4E46-B152-FBD34CA07A6E}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "dot.Mail.ServerTests", "dot.Mail.ServerTests\dot.Mail.ServerTests.csproj", "{05875913-1BAA-477F-B737-99FF69CA5A76}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -19,6 +32,18 @@ Global
 		{67726EB8-A7AC-4A39-B2BD-93C276C195E2}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{67726EB8-A7AC-4A39-B2BD-93C276C195E2}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{67726EB8-A7AC-4A39-B2BD-93C276C195E2}.Release|Any CPU.Build.0 = Release|Any CPU
+		{9CD13FA8-34D9-480F-93C2-155E3D7EBF53}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{9CD13FA8-34D9-480F-93C2-155E3D7EBF53}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{9CD13FA8-34D9-480F-93C2-155E3D7EBF53}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{9CD13FA8-34D9-480F-93C2-155E3D7EBF53}.Release|Any CPU.Build.0 = Release|Any CPU
+		{C1360019-01A5-4E46-B152-FBD34CA07A6E}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{C1360019-01A5-4E46-B152-FBD34CA07A6E}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{C1360019-01A5-4E46-B152-FBD34CA07A6E}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{C1360019-01A5-4E46-B152-FBD34CA07A6E}.Release|Any CPU.Build.0 = Release|Any CPU
+		{05875913-1BAA-477F-B737-99FF69CA5A76}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{05875913-1BAA-477F-B737-99FF69CA5A76}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{05875913-1BAA-477F-B737-99FF69CA5A76}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{05875913-1BAA-477F-B737-99FF69CA5A76}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
